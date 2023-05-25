@@ -66,7 +66,7 @@ function PDFViewer({ file,page }:PDFViewerProps){
         </div> 
         <div className='flex-row center'>  
           <Document file={pdfPath} className=' w858'>
-            <Page pageNumber={pageNow} />
+            <Page pageNumber={pageNow} renderAnnotationLayer={false} renderTextLayer={false}  />
           </Document>
         </div> 
     </div>
