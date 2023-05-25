@@ -1,0 +1,10 @@
+  "homepage": "/PK/pdf/",
+
+  <BrowserRouter  basename='/PK/pdf/' >
+
+  <BrowserRouter basename='/exp/' >
+      "proxy": "http:///",
+  "env": {
+    "REACT_APP_PROXY": "http:///"
+  },
+  

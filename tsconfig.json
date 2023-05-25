@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "pdfworker.d.ts", "public/pdfworker.js"  ]
 }
